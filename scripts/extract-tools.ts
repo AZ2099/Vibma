@@ -315,7 +315,6 @@ try {
     "---",
     "title: 快速开始",
     "description: 设置 Vibma 并将 AI 代理连接到 Figma",
-    "slug: index",
     "---",
     "",
     `{/* Auto-generated from CARRYME.zh-CN.md by extract-tools.ts — do not edit manually */}`,
