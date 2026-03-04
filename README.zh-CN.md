@@ -25,7 +25,7 @@ Vibma 兼容任何支持 MCP 的大语言模型，但只有 **Claude Opus 4.6** 
 |---|---|---|
 | 📦 | [**DRAGME.md**](./DRAGME.zh-CN.md) | 克隆仓库，从源码构建，完全掌控 |
 | ☁️ | [**CARRYME.md**](./CARRYME.zh-CN.md) | 从 npm 安装，无需克隆 |
-| 📖 | [**Docs**](https://ufira-ai.github.io/Vibma/zh-CN) | 工具参考文档，包含参数、响应结构和示例 |
+| 📖 | [**Docs**](https://ufira-ai.github.io/Vibma/zh-cn) | 工具参考文档，包含参数、响应结构和示例 |
 
 或者直接把下面这段话发给你的 AI 代理，让它自行完成设置：
 
