@@ -41,12 +41,12 @@ jobs:
           fi
 
       # ── npm publish (trusted publishing via OIDC, no token needed) ───
+      # Both steps tolerate "already published" so zip/GH release still run.
       - name: Publish @ufira/vibma
-        run: npm publish -w packages/core --access public --tag ${{ steps.dist-tag.outputs.tag }}
+        run: npm publish -w packages/core --access public --tag ${{ steps.dist-tag.outputs.tag }} || echo "::warning::@ufira/vibma publish failed (version may already exist)"
 
       - name: Publish @ufira/vibma-tunnel
-        continue-on-error: true
-        run: npm publish -w packages/tunnel --access public --tag ${{ steps.dist-tag.outputs.tag }}
+        run: npm publish -w packages/tunnel --access public --tag ${{ steps.dist-tag.outputs.tag }} || echo "::warning::@ufira/vibma-tunnel publish skipped (version may already exist)"
 
       # ── Zip release assets ───────────────────────────────────────────
       - name: Create zip assets
