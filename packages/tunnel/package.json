@@ -26,8 +26,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
-    "pub:release": "npm run build && npm publish --access public"
+    "build": "tsup"
   },
   "dependencies": {
     "ws": "latest"

@@ -66,8 +66,7 @@
   "scripts": {
     "build": "tsup",
     "build:watch": "tsup --watch",
-    "prepack": "cp ../../README.md . 2>/dev/null || true",
-    "pub:release": "npm run build && npm publish"
+    "prepack": "cp ../../README.md . 2>/dev/null || true"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.27.1",
