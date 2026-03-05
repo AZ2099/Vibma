@@ -76,21 +76,9 @@ git commit -m "release: $TAG"
 git tag "$TAG"
 
 echo ""
-echo "Ready to push. This will trigger CI to:"
-echo "  - Build all packages"
-echo "  - Publish @ufira/vibma + @ufira/vibma-tunnel to npm"
-echo "  - Create GH release with zip assets"
-echo "  - Deploy docs"
-echo ""
-read -rp "Push $TAG to origin? [y/N] " confirm
-if [[ "$confirm" != [yY] ]]; then
-  echo "Aborted. Tag and commit are local — undo with:"
-  echo "  git tag -d $TAG && git reset HEAD~1"
-  exit 1
-fi
-
+echo "Pushing $TAG..."
 git push origin main "$TAG"
 
 echo ""
-echo "Pushed $TAG — CI is running."
+echo "Released $TAG — CI is running."
 echo "  Watch: gh run watch"
