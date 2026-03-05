@@ -9,7 +9,7 @@
     "start": "node dist/mcp.js",
     "socket": "tsx packages/tunnel/src/index.ts",
     "setup": "./scripts/setup.sh",
-    "build": "npm run build -w packages/core && npm run build -w packages/adapter-figma",
+    "build": "npm run build -w packages/core && npm run build -w packages/adapter-figma && npm run build -w packages/tunnel",
     "build:watch": "npm run build:watch -w packages/core & npm run build:watch -w packages/adapter-figma",
     "dev": "npm run build:watch",
     "dev:mcp": "tsx packages/core/src/mcp.ts",
